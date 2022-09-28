@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.seller_about.AboutFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/bookcavelogo"/>
+
+            <TextView
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/about"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="Why our book store?"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="We have over 5000 books"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="We Provide the best facilities"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="All kind of books available"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="User friendly and easy to understand"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito"
+            android:text="Best service and resonable cost"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="What does this app do?"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="Helps you find the book and ship it to your selected location "
+            />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito"
+            android:text="Delivers the ordered book to the given location"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/nunito"
+            android:text="Books keep on adding to the collection and the supply chain is vast"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:text="Have any suggestions?"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:autoLink="email"
+            android:fontFamily="@font/nunito"
+            android:text="Drop it on this mail"
+            />
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:autoLink="email"
+            android:fontFamily="@font/nunito"
+            android:text="myemail"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
